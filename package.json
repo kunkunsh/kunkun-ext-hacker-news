@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.kunkun.sh/",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "name": "kunkun-ext-hacker-news",
   "repository": "https://github.com/kunkunsh/kunkun-ext-hacker-news",
   "type": "module",
@@ -14,7 +14,9 @@
       "value": "fa:hacker-news"
     },
     "longDescription": "",
-    "demoImages": [],
+    "demoImages": [
+      "https://i.imgur.com/dMHapVA.png"
+    ],
     "permissions": [
       {
         "permission": "open:url",
