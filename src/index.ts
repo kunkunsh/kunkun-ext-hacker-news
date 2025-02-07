@@ -1,5 +1,5 @@
 import { IconEnum } from "@kksh/api/models"
-import { Action, expose, Icon, List, open, toast, ui, WorkerExtension } from "@kksh/api/ui/worker"
+import { Action, expose, Icon, List, open, toast, ui, TemplateUiCommand } from "@kksh/api/ui/template"
 import {
 	array,
 	number,
@@ -48,7 +48,7 @@ function hackerNewsItemToListItem(item: HackerNewsItem, idx: number): List.Item 
 	})
 }
 
-class HackerNews extends WorkerExtension {
+class HackerNews extends TemplateUiCommand {
 	items: HackerNewsItem[]
 	listitems: List.Item[]
 	storyIds: number[]
