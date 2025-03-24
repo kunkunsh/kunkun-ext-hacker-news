@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.kunkun.sh/",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "name": "kunkun-ext-hacker-news",
   "repository": "https://github.com/kunkunsh/kunkun-ext-hacker-news",
   "type": "module",
@@ -45,7 +45,7 @@
     "build": "bun build.ts"
   },
   "dependencies": {
-    "@kksh/api": "^0.1.1",
+    "@kksh/api": "^0.1.7",
     "valibot": "^0.40.0"
   },
   "devDependencies": {
